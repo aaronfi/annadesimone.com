@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: none;
+	background-repeat: repeat-x;
+	left: 0px;
+	top: 0px;
+	background-color: #9dbf9b;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	z-index:1;
+}
+#bellevue-massage-wrapper {
+	position:relative;
+	top:10px;
+	margin-right: auto;
+	margin-left: auto;
+	width:780px;
+	height:990px;
+	padding:0px;
+	border:1px solid #CCFFCC;
+	z-index:2;
+}
+#seattle-massage-upper-bg {
+	background-image: url(../images/massage-upper-bg.jpg);
+	background-repeat: repeat-x;
+	width: 750px;
+	height: 280px;
+	position: relative;
+	top:0px;
+	padding-left:15px;
+	padding-right:15px;
+	z-index: 10;
+	background-position: center;
+}
+#bellevue-massage-banner {
+	background-color: #447c41;
+	height: 340px;
+	width: 748px;
+	border:1px solid #CCFFCC;
+	position: relative;
+	top:-250px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index:15;
+}
+#anna-desimone-lmp {
+	background-repeat: no-repeat;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+#anna-desimone-lmp h1{
+	width:240px;
+	position: relative;
+	left: 15px;
+	top: -20px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align:center;
+}
+#anna-desimone-lmp p{
+	width:240px;
+	color: #FFFFFF;
+	font-size: 12px;
+	position:relative;
+	top:-25px;
+	text-align:center;
+}
+#phone-anna-desimone {
+	width:165px;
+	height:30px;
+	position:relative;
+	top:-10px;
+	left:380px;
+}
+#phone-anna-desimone h1{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight:bold;
+}
+#anna-desimone-main-links {
+	width: 480px;
+	position: relative;
+	top: 220px;
+	left: 280px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+#anna-desimone-main-links a{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+#anna-desimone-main-links a:active{
+	color: #264d24;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+#anna-desimone-main-links a:hover{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+#Seattle-massage-clients {
+	width: 428px;
+	height: 179px;
+	position:relative;
+	top:-225px;
+	left:300px;
+	border:1px solid #CCFFCC;
+}
+#Seattle-massage-clients img{
+	padding:10px;
+}
+#Seattle-massage-ss{
+	position:relative;
+	padding:10px;
+}
+#seattle-massage-content {
+	display:block;
+	width:748px;
+	height: 561px;
+	position: relative;
+	top:-240px;
+	left:15px;
+	z-index:50;
+	border:1px solid #CCFFCC;
+}
+#seattle-massage-content-text {
+	width:370px;
+	height:auto;
+	background-image: url(../images/massage-content-text-bg.png);
+	background-repeat: repeat;
+	padding:10px;
+	margin:10px;
+	z-index:55;
+	border:1px solid #CCFFCC;
+}
+#seattle-massage-content-text h1 {
+	color:#003300;
+	font-size: 18px;
+	font-family: "Footlight MT Light", "MS Serif";
+}
+#seattle-massage-content-text h2 {
+	color:#003300;
+	font-size: 14px;
+	font-family: "Footlight MT Light", "MS Serif";
+}
+#seattle-massage-content-text p {
+	color:#003300;
+	font-size: 14px;
+	font-family: "Footlight MT Light", "MS Serif";
+	padding:0px;
+	margin:0px;
+}
+#seattle-massage-content-text li {
+	color:#003300;
+	font-size: 14px;
+	font-family: "Footlight MT Light", "MS Serif";
+	padding:0px;
+	margin:0px;
+}
+#seattle-massage-lower-bg {
+	background-image: url(../images/massage-lower-bg.jpg);
+	background-repeat: repeat-x;
+	width: 750px;
+	height: 280px;
+	position: relative;
+	top: -520px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	z-index: 18;
+	background-position: center;
+}
+#bellevue-massage-lower-banner {
+	background-color: #447c41;
+	height: 55px;
+	width: 830px;
+	border: 1px solid #CCFFCC;
+	position: relative;
+	top: -210px;
+	left: -30px;
+	z-index: 19;
+}
+#lower-links {
+	width:836px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	position:relative;
+	top:0px;
+	left:0px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#lower-links a{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+#lower-links a:active{
+	color: #264d24;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+#lower-links a:hover{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+table#rates {
+	width:350px;
+	margin:0px;
+}
+table#rates td{
+	width:175px;
+	color:#003300;
+	font-size: 14px;
+	font-family: "Footlight MT Light", "MS Serif";
+}
